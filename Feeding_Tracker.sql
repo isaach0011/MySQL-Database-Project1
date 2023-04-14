@@ -1,4 +1,3 @@
-/*
 #-----------------------DATABASE AND TABLE CREATION -------------------
 
 CREATE DATABASE Feeding_Tracker;
@@ -69,7 +68,7 @@ VALUES #(0001, 0003, 0001, '2023-03-01 10:30:23', 'Instinct')
        (0010, 0002, 0010, '2023-03-01 10:03:55', 'Purina');
 
 #-------------------- QUERIES --------------------
-
+/*
 #Joins Employee with the feed log to show what time they fed the dog and is ordered by employee ID
 SELECT employee.employeeID, employee.employeeName, feedlog.logID, feedlog.timeFed
 FROM employee

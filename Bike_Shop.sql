@@ -1,4 +1,3 @@
-/*
 #-----------------------DATABASE AND TABLE CREATION -------------------
 
 CREATE DATABASE Bike_Shop;
@@ -87,7 +86,7 @@ VALUES (0001, 0003, 0004, 0007, 1, '2023-01-28 12:30:13', 632.77),
        (0011, 0001, 0002, 0002, 1, '2023-01-13 08:59:31', 694.59);
 
 #-------------------- QUERIES --------------------
-
+/*
 #Count the amount of orders that have sold product worth more than $1000
 SELECT COUNT(*)
 FROM shoporder

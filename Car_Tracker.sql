@@ -1,4 +1,3 @@
-/*
 #-----------------------DATABASE AND TABLE CREATION -------------------
 
 CREATE DATABASE towing_company;
@@ -70,6 +69,7 @@ VALUES (0001, 0004, 0007, '2023-01-03 03:25:05', 'Orem, Utah', '6 Days', 556.75,
        (0011, 0002, 0004, '2023-03-03 05:48:29', 'Bluffdale, Utah', '1 Days', 223.21, 120.48);
 
 #-------------------- QUERIES --------------------
+/*
 #Pairs towlog and car to show how much it took to get the car out of the lot (releasePrice + towPrice) and this is ordered by logID
 SELECT towlog.logID, car.make, car.model, car.modelYear, car.color, car.licensePlate, (towlog.releasePrice + towlog.towPrice) AS totalPrice
 FROM towlog
